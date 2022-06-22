@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Input from './pages/Input';
 import Interval from './pages/Interval';
 import Notification from './pages/Notification';
+import OutsideClick from './pages/OutsideClick';
 import Scroll from './pages/Scroll';
 import Tabs from './pages/Tabs';
 
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/scroll" element={<Scroll />} />
+        <Route path="/outside_click" element={<OutsideClick />} />
         <Route path="/interval" element={<Interval />} />
         <Route path="/input" element={<Input />} />
         <Route path="/tabs" element={<Tabs />} />

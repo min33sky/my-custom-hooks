@@ -21,6 +21,7 @@ function Header() {
           </option>
           <option value="">Home</option>
           <option value="scroll">Scroll Coords</option>
+          <option value="outside_click">Outside Click</option>
           <option value="interval">Interval</option>
           <option value="input">Input</option>
           <option value="tabs">Tabs</option>

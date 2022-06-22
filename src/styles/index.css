@@ -137,3 +137,50 @@ table {
 body {
   background-color: lavender;
 }
+
+.outside__container {
+  min-height: 150vh;
+}
+
+.outside__float-button {
+  position: fixed;
+  bottom: 140px;
+  right: 30px;
+  background-color: var(--red-6);
+  border-radius: 100vw;
+
+  width: 60px;
+  height: 60px;
+
+  /* 가운데 */
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.outside__float-button svg {
+  width: 90%;
+  height: 90%;
+}
+
+.outside__float-menu {
+  position: absolute;
+  top: -115px;
+  right: 30px;
+  width: 100px;
+  max-height: 0;
+  overflow: hidden;
+  background-color: var(--red-1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.outside__float-menu.expended {
+  max-height: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
