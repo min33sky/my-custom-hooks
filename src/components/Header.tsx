@@ -10,9 +10,9 @@ function Header() {
 
   return (
     <header className="header__container">
-      <div>
+      <span className="header__logo">
         <Link to="/">Custom Hooks</Link>
-      </div>
+      </span>
 
       <div>
         <select onChange={onPush}>
