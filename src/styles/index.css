@@ -141,8 +141,70 @@ a {
 
 body {
   background-color: lavender;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90%;
+}
+
+/* 공통 */
+button {
+  all: unset;
+  padding: 10px 20px;
+  border-radius: 100vw;
+  background-color: var(--red-1);
+  border: 1px solid var(--red-2);
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--red-2);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 500px;
+  gap: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+  padding: 20px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* ************************************************* */
 .outside__container {
   min-height: 150vh;
 }
@@ -188,4 +250,11 @@ body {
   max-height: 300px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.clipboard__result {
+  margin-top: 30px;
+  padding: 20px 10px;
+  background-color: var(--lime-2);
+  width: fit-content;
 }

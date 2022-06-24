@@ -1,5 +1,7 @@
+import { Toaster } from 'react-hot-toast';
 import { Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
+import CopyToClipboard from './pages/CopyToClipboard';
 import FullScreen from './pages/FullScreen';
 import Home from './pages/Home';
 import Input from './pages/Input';
@@ -13,16 +15,20 @@ function App() {
   return (
     <>
       <Header />
-      <Routes>
-        <Route path="/scroll" element={<Scroll />} />
-        <Route path="/outside_click" element={<OutsideClick />} />
-        <Route path="/interval" element={<Interval />} />
-        <Route path="/input" element={<Input />} />
-        <Route path="/tabs" element={<Tabs />} />
-        <Route path="/fullscreen" element={<FullScreen />} />
-        <Route path="/notification" element={<Notification />} />
-        <Route path="/" element={<Home />} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path="/scroll" element={<Scroll />} />
+          <Route path="/outside_click" element={<OutsideClick />} />
+          <Route path="/copy_to_clipboard" element={<CopyToClipboard />} />
+          <Route path="/interval" element={<Interval />} />
+          <Route path="/input" element={<Input />} />
+          <Route path="/tabs" element={<Tabs />} />
+          <Route path="/fullscreen" element={<FullScreen />} />
+          <Route path="/notification" element={<Notification />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </main>
+      <Toaster />
     </>
   );
 }
