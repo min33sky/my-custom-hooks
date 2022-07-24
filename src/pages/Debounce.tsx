@@ -19,8 +19,15 @@ function Debounce() {
     <div className="container">
       <p>실제 입력값: {value}</p>
       <p>디바운스된 값: {debouncedValue}</p>
+      <p>Delay: 1초</p>
 
-      <input type="text" value={value} onChange={handleChange} />
+      <input
+        type="text"
+        value={value}
+        onChange={handleChange}
+        maxLength={27}
+        placeholder="글자를 입력하세요."
+      />
     </div>
   );
 }

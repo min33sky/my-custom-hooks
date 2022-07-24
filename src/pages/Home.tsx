@@ -1,5 +1,9 @@
 function Home() {
-  return <div>Home</div>;
+  return (
+    <div>
+      <p>My Custom Hooks🚀</p>
+    </div>
+  );
 }
 
 export default Home;
