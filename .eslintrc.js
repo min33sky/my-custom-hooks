@@ -37,6 +37,8 @@ module.exports = {
     'no-console': 'off',
     'react/button-has-type': 'off',
     'react/no-array-index-key': 'off',
+    'import/prefer-default-export': 'off',
+    '@typescript-eslint/no-empty-function': 'off',
     // '@typescript-eslint/explicit-function-return-type': 1,
     // '@typescript-eslint/explicit-module-boundary-types': 1,
   },

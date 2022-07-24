@@ -144,6 +144,8 @@ body {
   display: flex;
   width: 100vw;
   height: 100vh;
+  font-family: 'Poor Story', cursive;
+  font-size: 1.5rem;
 }
 
 main {
@@ -178,6 +180,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   width: 100%;
+  max-width: 1024px;
   min-height: 500px;
   gap: 20px;
   background-color: white;

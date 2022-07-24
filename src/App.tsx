@@ -2,6 +2,7 @@ import { Toaster } from 'react-hot-toast';
 import { Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import CopyToClipboard from './pages/CopyToClipboard';
+import Debounce from './pages/Debounce';
 import FullScreen from './pages/FullScreen';
 import Home from './pages/Home';
 import Input from './pages/Input';
@@ -25,6 +26,7 @@ function App() {
           <Route path="/tabs" element={<Tabs />} />
           <Route path="/fullscreen" element={<FullScreen />} />
           <Route path="/notification" element={<Notification />} />
+          <Route path="/debounce" element={<Debounce />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </main>
