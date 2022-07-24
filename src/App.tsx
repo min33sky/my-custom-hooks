@@ -7,6 +7,7 @@ import FullScreen from './pages/FullScreen';
 import Home from './pages/Home';
 import Input from './pages/Input';
 import Interval from './pages/Interval';
+import MediaQuery from './pages/MediaQuery';
 import Notification from './pages/Notification';
 import OutsideClick from './pages/OutsideClick';
 import Scroll from './pages/Scroll';
@@ -27,6 +28,7 @@ function App() {
           <Route path="/fullscreen" element={<FullScreen />} />
           <Route path="/notification" element={<Notification />} />
           <Route path="/debounce" element={<Debounce />} />
+          <Route path="/mediaquery" element={<MediaQuery />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </main>

@@ -22,6 +22,7 @@ function Header() {
           <option value="">Home</option>
           <option value="scroll">Scroll Coords</option>
           <option value="debounce">Debounce</option>
+          <option value="mediaquery">MediaQuery</option>
           <option value="outside_click">Outside Click</option>
           <option value="copy_to_clipboard">Copy to Clipboard</option>
           <option value="interval">Interval</option>

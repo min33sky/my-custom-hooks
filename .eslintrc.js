@@ -39,6 +39,7 @@ module.exports = {
     'react/no-array-index-key': 'off',
     'import/prefer-default-export': 'off',
     '@typescript-eslint/no-empty-function': 'off',
+    'no-shadow': 'off',
     // '@typescript-eslint/explicit-function-return-type': 1,
     // '@typescript-eslint/explicit-module-boundary-types': 1,
   },
