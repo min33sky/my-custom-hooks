@@ -24,6 +24,8 @@ function Header() {
           <option value="debounce">Debounce</option>
           <option value="mediaquery">MediaQuery</option>
           <option value="effect_once">useEffect_Once</option>
+          <option value="update_effect">useEffect_afterFirstRender</option>
+          <option value="first_render">useIsFirstRender</option>
           <option value="outside_click">Outside Click</option>
           <option value="copy_to_clipboard">Copy to Clipboard</option>
           <option value="interval">Interval</option>

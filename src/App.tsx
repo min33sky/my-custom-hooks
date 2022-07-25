@@ -1,5 +1,6 @@
 import { Toaster } from 'react-hot-toast';
 import { Route, Routes } from 'react-router-dom';
+import FirstRender from './components/FirstRender';
 import Header from './components/Header';
 import CopyToClipboard from './pages/CopyToClipboard';
 import Debounce from './pages/Debounce';
@@ -13,6 +14,7 @@ import Notification from './pages/Notification';
 import OutsideClick from './pages/OutsideClick';
 import Scroll from './pages/Scroll';
 import Tabs from './pages/Tabs';
+import UpdateEffect from './pages/UpdateEffect';
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
           <Route path="/debounce" element={<Debounce />} />
           <Route path="/mediaquery" element={<MediaQuery />} />
           <Route path="/effect_once" element={<EffectOnce />} />
+          <Route path="/update_effect" element={<UpdateEffect />} />
+          <Route path="/first_render" element={<FirstRender />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </main>

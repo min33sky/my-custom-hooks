@@ -26,6 +26,7 @@ button {
   border-radius: 100vw;
   background-color: var(--red-2);
   border: 1px solid var(--red-2);
+  color: var(--gray-7);
   font-size: 1rem;
   font-weight: 600;
   text-align: center;
@@ -34,7 +35,7 @@ button {
 }
 
 button:hover {
-  background-color: var(--red-2);
+  background-color: var(--red-3);
 }
 
 input[type='text'] {
@@ -78,8 +79,15 @@ li {
 }
 
 h1 {
+  font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   font-weight: bold;
+  color: var(--red-4);
+}
+
+h2 {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1.1rem;
 }
 
 /* ************************************************* */

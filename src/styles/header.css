@@ -23,15 +23,15 @@
 }
 
 select {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   outline: none;
   border: none;
   border-radius: 100vmin;
-  padding: 5px;
+  padding: 2px;
   color: var(--violet-4);
   cursor: pointer;
 }
 
 option {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }

@@ -40,6 +40,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     '@typescript-eslint/no-empty-function': 'off',
     'no-shadow': 'off',
+    'consistent-return': 'off',
     // '@typescript-eslint/explicit-function-return-type': 1,
     // '@typescript-eslint/explicit-module-boundary-types': 1,
   },
