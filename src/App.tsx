@@ -1,10 +1,10 @@
 import { Toaster } from 'react-hot-toast';
 import { Route, Routes } from 'react-router-dom';
-import FirstRender from './components/FirstRender';
 import Header from './components/Header';
 import CopyToClipboard from './pages/CopyToClipboard';
 import Debounce from './pages/Debounce';
 import EffectOnce from './pages/EffectOnce';
+import FirstRender from './pages/FirstRender';
 import FullScreen from './pages/FullScreen';
 import Home from './pages/Home';
 import Input from './pages/Input';

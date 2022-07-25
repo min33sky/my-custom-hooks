@@ -22,6 +22,7 @@ main {
 /* 공통 */
 button {
   all: unset;
+  font-family: 'Poppins', sans-serif;
   padding: 10px 20px;
   border-radius: 100vw;
   background-color: var(--red-2);
@@ -32,6 +33,8 @@ button {
   text-align: center;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  width: 100%;
+  max-width: 300px;
 }
 
 button:hover {
@@ -88,6 +91,27 @@ h1 {
 h2 {
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 1.1rem;
+}
+
+a.link {
+  all: unset;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--violet-3);
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  padding: 10px 20px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 100vmin;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+a.link:hover {
+  background-color: var(--violet-6);
 }
 
 /* ************************************************* */
