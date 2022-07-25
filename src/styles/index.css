@@ -24,7 +24,7 @@ button {
   all: unset;
   padding: 10px 20px;
   border-radius: 100vw;
-  background-color: var(--red-1);
+  background-color: var(--red-2);
   border: 1px solid var(--red-2);
   font-size: 1rem;
   font-weight: 600;

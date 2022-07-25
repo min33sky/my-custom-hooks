@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import CopyToClipboard from './pages/CopyToClipboard';
 import Debounce from './pages/Debounce';
+import EffectOnce from './pages/EffectOnce';
 import FullScreen from './pages/FullScreen';
 import Home from './pages/Home';
 import Input from './pages/Input';
@@ -29,6 +30,7 @@ function App() {
           <Route path="/notification" element={<Notification />} />
           <Route path="/debounce" element={<Debounce />} />
           <Route path="/mediaquery" element={<MediaQuery />} />
+          <Route path="/effect_once" element={<EffectOnce />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </main>
