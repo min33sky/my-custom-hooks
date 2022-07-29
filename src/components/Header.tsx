@@ -23,6 +23,7 @@ function Header() {
           <option value="first_render">useIsFirstRender</option>
           <option value="effect_once">useEffect_Once</option>
           <option value="update_effect">useEffect_afterFirstRender</option>
+          <option value="is_mounted">useIsMounted</option>
           <option value="scroll">Scroll Coords</option>
           <option value="debounce">Debounce</option>
           <option value="mediaquery">MediaQuery</option>

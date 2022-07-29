@@ -9,6 +9,7 @@ import FullScreen from './pages/FullScreen';
 import Home from './pages/Home';
 import Input from './pages/Input';
 import Interval from './pages/Interval';
+import IsMounted from './pages/IsMounted';
 import MediaQuery from './pages/MediaQuery';
 import Notification from './pages/Notification';
 import OutsideClick from './pages/OutsideClick';
@@ -35,6 +36,7 @@ function App() {
           <Route path="/effect_once" element={<EffectOnce />} />
           <Route path="/update_effect" element={<UpdateEffect />} />
           <Route path="/first_render" element={<FirstRender />} />
+          <Route path="/is_mounted" element={<IsMounted />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </main>
