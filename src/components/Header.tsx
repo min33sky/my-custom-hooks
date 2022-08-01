@@ -26,6 +26,7 @@ function Header() {
           <option value="is_mounted">useIsMounted</option>
           <option value="scroll">Scroll Coords</option>
           <option value="debounce">Debounce</option>
+          <option value="throttle">Throttle</option>
           <option value="mediaquery">MediaQuery</option>
           <option value="outside_click">Outside Click</option>
           <option value="copy_to_clipboard">Copy to Clipboard</option>

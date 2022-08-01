@@ -15,6 +15,7 @@ import Notification from './pages/Notification';
 import OutsideClick from './pages/OutsideClick';
 import Scroll from './pages/Scroll';
 import Tabs from './pages/Tabs';
+import Throttle from './pages/Throttle';
 import UpdateEffect from './pages/UpdateEffect';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           <Route path="/fullscreen" element={<FullScreen />} />
           <Route path="/notification" element={<Notification />} />
           <Route path="/debounce" element={<Debounce />} />
+          <Route path="/throttle" element={<Throttle />} />
           <Route path="/mediaquery" element={<MediaQuery />} />
           <Route path="/effect_once" element={<EffectOnce />} />
           <Route path="/update_effect" element={<UpdateEffect />} />
